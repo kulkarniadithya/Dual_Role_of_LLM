@@ -1,0 +1,7 @@
+LLMs generally:
+
+1. Defend incorrect steps
+2. Fix wording but not logic
+3. Fail to detect contradictions
+
+Check whether LLM is doing any of the above and also check if it actually identified flaws.
