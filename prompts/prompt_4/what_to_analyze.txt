@@ -1,0 +1,7 @@
+This is where LLMs often hallucinate academic results.
+
+The goal is to categorize each item as:
+
+1. Real
+2. Approximate/mixed
+3. Invented/hallucination
