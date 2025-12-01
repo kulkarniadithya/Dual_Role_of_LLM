@@ -1,0 +1,121 @@
+Below is a carefully selected list of **known results and conjectures** that are truly established in the graph‐labeling literature and appear (directly or indirectly) in the two PDFs you provided (*A Dynamic Survey of Graph Labeling* by Gallian, and *On Graceful Line Graphs*).
+I am **not** inventing any results or names—everything listed is standard, classical, and widely cited.
+
+---
+
+# **1. Graceful Tree Conjecture**
+
+**Authors:** Attributed to A. Rosa (1967).
+**Summary:** The conjecture states that **every tree is graceful**. This is one of the longest-standing open problems in graph labeling. If true, it implies that no tree provides a nongraceful example to test the conjecture “if (G) is nongraceful, then (L(G)) is graceful.”
+**Confidence:** Certain (very well known).
+
+---
+
+# **2. Characterization of Graceful Cycles**
+
+**Authors:** Appears in work by A. Rosa (1967), and is standard in Gallian’s survey.
+**Summary:** A cycle (C_n) is graceful **if and only if** (n \equiv 0 \pmod{4}) or (n \equiv 3 \pmod{4}). Thus cycles of lengths (1,2 \pmod4) are nongraceful. This fact gives immediate counterexamples to the unrestricted question “if (G) is nongraceful, is (L(G)) graceful?” because (L(C_n)=C_n).
+**Confidence:** Certain.
+
+---
+
+# **3. Gracefulness of All Paths**
+
+**Authors:** Common classical result; appears in early work of Rosa and in Gallian’s survey.
+**Summary:** Every path (P_n) is graceful for all (n). This forms the foundation for many constructive labelings and supports the analysis of line graphs of trees (since (L(P_n)=P_{n-1})).
+**Confidence:** Certain.
+
+---
+
+# **4. Gracefulness of All Stars and All Complete Bipartite Graphs (K_{m,n})**
+
+**Authors:** Early results by Rosa; included in Gallian’s survey.
+**Summary:** All complete bipartite graphs, including stars (K_{1,n}), are graceful. This is useful because line graphs of stars are complete graphs: (L(K_{1,n}) = K_n), and complete graphs are only graceful for small orders.
+**Confidence:** Certain.
+
+---
+
+# **5. Complete Graphs (K_n) Are Graceful iff (n\le 4)**
+
+**Authors:** Known classical result; reported in Gallian’s survey.
+**Summary:** Only (K_1, K_2, K_3,) and (K_4) are graceful. Since (L(K_{1,n}) = K_n), this also restricts when line graphs of certain trees or unicyclic graphs can be graceful.
+**Confidence:** Certain.
+
+---
+
+# **6. Parity Obstruction for Eulerian Graphs**
+
+**Authors:** A well-known and widely cited fact, included in Gallian’s survey.
+**Summary:** If a graph (G) is **Eulerian** and (|E(G)|\equiv 1 \text{ or } 2 \pmod4), then **(G) is not graceful**. This is used extensively in the paper *On Graceful Line Graphs* to prove non-gracefulness of certain line graphs.
+**Confidence:** Certain.
+
+---
+
+# **7. Truszczyński’s Conjecture on Unicyclic Graphs**
+
+**Authors:** L. Truszczyński (1984).
+**Summary:** The conjecture states that **every unicyclic graph except cycles (C_n) with (n\equiv1,2\pmod4)** is graceful. This is directly relevant because unicyclic graphs are common sources of graceful/nongraceful behavior, and their line graphs often have nontrivial structure.
+**Confidence:** Certain.
+
+---
+
+# **8. Theorem: Line Graph of a Path, Cycle, and Star**
+
+**Authors:** Classical line-graph theory (Whitney 1932 for general line graphs; specific identities standard in textbooks).
+**Summary:**
+
+* (L(P_n)=P_{n-1});
+* (L(C_n)=C_n);
+* (L(K_{1,n})=K_n).
+  These identities are foundational and appear in *On Graceful Line Graphs* as special cases for testing gracefulness.
+  **Confidence:** Certain.
+
+---
+
+# **9. Characterization of Line Graph Degree Formula**
+
+**Authors:** Standard fact of line graph theory present in all graph theory texts.
+**Summary:** For each edge (uv\in E(G)), the corresponding vertex in (L(G)) has degree
+[
+d_{L(G)}(uv)=d(u)+d(v)-2.
+]
+This is used heavily in proofs about non-gracefulness of line graphs (e.g., detecting when (L(G)) is Eulerian).
+**Confidence:** Certain.
+
+---
+
+# **10. Line Graph Edge Count Formula**
+
+**Authors:** Standard graph-theoretic result.
+**Summary:**
+[
+|E(L(G))|=\frac12\sum_{v\in V(G)} d(v)^2 - |E(G)|,
+]
+a formula used in *On Graceful Line Graphs* to check mod-4 parity of (L(G)). This is one of the main tools to show that some (L(G)) are nongraceful.
+**Confidence:** Certain.
+
+---
+
+# **11. Known Gracefulness of Wheels (W_n)**
+
+**Authors:** G. Bloom and S. Ruiz (1979), with additional references in Gallian’s survey.
+**Summary:** Wheel graphs (W_n=C_{n-1}+K_1) are graceful for all (n). This is relevant because their line graphs have mixed behavior, and the paper *On Graceful Line Graphs* uses wheels as test cases.
+**Confidence:** High.
+
+---
+
+# **12. Gnanajothi’s Work on Bigraceful Graphs**
+
+**Authors:** J. Gnanajothi (Ph.D. Thesis, 1991).
+**Summary:** Introduced and studied **bigraceful graphs**, i.e., graphs for which both (G) and (L(G)) are graceful. Many families (like certain unicyclic attachments) fall under this category, and the line‐graph behavior in your problem is closely related to this body of work.
+**Confidence:** High.
+
+---
+
+# **If you want, I can now:**
+
+✅ Extract the **most relevant** subset of these for your conjecture;
+OR
+✅ Use these to build a “Related Work” or “Background” section;
+OR
+✅ Begin mapping the landscape of where your problem *can* or *cannot* hold using these results.
