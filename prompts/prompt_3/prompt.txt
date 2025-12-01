@@ -1,0 +1,5 @@
+Before we proceed, can you identify the areas of graph theory or graph labeling that are most closely related to the problem. For each area:
+
+1. Name it.
+2. Explain the relationship to the problem.
+3. Mention concepts or tools from that area that might be relevant.
