@@ -1,0 +1,2 @@
+1. LLM's ability to generate conceptual ideas
+2. Presence of reasonable themes (parity, degrees, line-graph structure)
