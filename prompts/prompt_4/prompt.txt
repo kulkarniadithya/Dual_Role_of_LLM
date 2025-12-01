@@ -1,0 +1,8 @@
+Now list 8–12 theorems, known results, or named conjectures that you believe are directly relevant to the problem. For each one:
+
+1. Provide the name of the result.
+2. State the authors (if known).
+3. Give a 2–3 sentence summary.
+4. Indicate if you are unsure.
+
+Please do NOT invent results or authors. Only include items you have high confidence in.
