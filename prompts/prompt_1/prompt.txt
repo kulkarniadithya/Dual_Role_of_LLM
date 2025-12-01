@@ -1,5 +1,3 @@
-Prompt 1:
-
 I want your help in developing proof (either prove or disprove) for the below unsolved problem:
 
 Problem: If G is nongraceful then L(G ) is graceful?
