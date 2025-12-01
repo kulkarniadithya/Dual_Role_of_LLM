@@ -1,0 +1,6 @@
+1. Logical gaps
+2. Invented lemmas
+3. Incorrect identities
+4. Contradictions
+5. Circular reasoning
+6. False generalizations
