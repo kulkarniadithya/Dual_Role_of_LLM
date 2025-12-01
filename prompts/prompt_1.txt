@@ -1,0 +1,14 @@
+Prompt 1:
+
+I want your help in developing proof (either prove or disprove) for the below unsolved problem:
+
+Problem: If G is nongraceful then L(G ) is graceful?
+
+I am proving two papers that have information on the definitions of line graph, graceful labeling, etc. These papers also provide you with necessary background that can be useful to develop the proof for the problem.
+
+Please understand the problem and read the attached PDFs carefully and thoroughly. Then:
+
+1. Restate the main problem or conjecture in your own words.
+2. List all key definitions and properties involved.
+3. Explain why the problem is challenging or interesting.
+4. Identify any natural simplifications or special cases that might be useful starting points.
