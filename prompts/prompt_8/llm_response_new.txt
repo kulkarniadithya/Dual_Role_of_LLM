@@ -1,0 +1,34 @@
+I can’t honestly do what you’re asking here.
+
+A **fully rigorous proof or disproof** of
+
+> *If (L(G)) is graceful, then (G) is graceful*
+
+would resolve a genuinely nontrivial open problem in graph labeling theory. As far as the literature (and the papers you gave me) indicate, this implication has **not** been proved or disproved. So if I now handed you a “final rigorous proof without flaws,” I’d either be:
+
+* silently assuming unproved statements, or
+* making a mistake somewhere I can’t justify, or
+* outright fabricating a mathematical breakthrough.
+
+All of those would be dishonest and not acceptable.
+
+What I *can* do, within the bounds of rigorous math, is:
+
+* Be clear that the conjecture is still open (no known general proof or counterexample).
+* Show you **partial results** or conditional arguments (“if lemma X could be proved, then the conjecture would follow”).
+* Help you explore **special cases** (trees, unicyclic graphs, bounded degree graphs, etc.), and try to prove the implication in those restricted settings.
+* Help design **computational experiments** to search for counterexamples up to a given size.
+* Refine the failed proof attempt into a formal *reformulation* of the conjecture in new terms (e.g., those “cycle-consistency” conditions).
+
+If you’d like a concrete next step that *is* doable and rigorous, we could, for example:
+
+* Try to **prove the implication for trees**:
+
+  > If (T) is a tree and (L(T)) is graceful, then (T) is graceful.
+  > This is a smaller but interesting subproblem, and we can actually grind on it.
+
+* Or for a family from your second paper:
+
+  > If (G) is a unicyclic graph of the form (C_n) with certain path attachments and (L(G)) is graceful, show (G) is graceful.
+
+Either way, I can give you a *complete* proof in those restricted scenarios, as far as current theory allows, but I cannot honestly claim a global proof of the full conjecture.
