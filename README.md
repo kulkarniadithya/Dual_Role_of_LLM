@@ -1,4 +1,4 @@
-# Dual Role of LLMs in Advanced Mathematical Problem Solving
+# Evaluating Large Language Models on Solved and Unsolved Problems in Graph Theory: Implications for Computing Education
 
 This repository accompanies a study on how Large Language Models (LLMs) — specifically the web version of ChatGPT 5.1 — behave when asked to tackle a genuine open problem in graph theory.
 
