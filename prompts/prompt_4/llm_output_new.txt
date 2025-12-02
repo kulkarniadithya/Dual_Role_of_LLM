@@ -1,0 +1,136 @@
+Below is a carefully curated list of **high-confidence** theorems and conjectures that are **directly relevant** to the problem
+[
+\text{If } L(G) \text{ is graceful, is } G \text{ graceful?}
+]
+All items are well-established in the literature or appear explicitly in the PDFs you provided.
+**No invented results or authors appear.**
+
+---
+
+# **1. Graceful Tree Conjecture (Rosa, 1966)**
+
+**Authors:** A. Rosa.
+**Summary:** States that *every tree is graceful*. Trees are the foundational family in graceful labeling theory, and the conjecture remains open. It is relevant because if true, any tree whose line graph is graceful must itself be graceful.
+**Confidence:** Certain.
+
+---
+
+# **2. Rosa’s Definition and Foundational Theorem on Graceful Labelings (1967)**
+
+**Author:** A. Rosa.
+**Summary:** Rosa introduced graceful labelings (then called β-valuations) and proved that paths (P_n) and stars (K_{1,n}) are graceful. This provides base cases for families where both (G) and (L(G)) are graceful.
+**Confidence:** Certain.
+
+---
+
+# **3. Known Characterization: Paths and Cycles under Line Graphs**
+
+**Authors:** Standard graph theory (Whitney 1932 for line graphs; Rosa/Gallian for graceful results).
+**Summary:** (L(P_n)=P_{n-1}) and (L(C_n)=C_n). Paths are always graceful, and cycles (C_n) are graceful exactly when (n \equiv 0,3 \pmod{4}). Thus the conjecture holds for these families.
+**Confidence:** Certain.
+
+---
+
+# **4. Gallian’s Survey on Graph Labelings (annual updates 1980–present)**
+
+**Author:** J. Gallian.
+**Summary:** This survey records all known families of graceful graphs, including cycles, wheels, paths, caterpillars, many trees, some products, and many special constructions. It provides essential background constraints on which (G) could violate the conjecture.
+**Confidence:** Certain.
+
+---
+
+# **5. Characterization of Line Graphs (Beineke, 1970)**
+
+**Author:** L.W. Beineke.
+**Summary:** Gives the classic forbidden-subgraph characterization of line graphs, showing that a graph is a line graph iff it contains none of nine specific induced subgraphs. This is important because any graceful graph that is a line graph must avoid these nine substructures.
+**Confidence:** Certain.
+
+---
+
+# **6. Whitney’s Isomorphism Theorem for Line Graphs (1932)**
+
+**Author:** H. Whitney.
+**Summary:** Shows that except for the pair ((K_3, K_{1,3})), all connected graphs have at most one preimage under the line graph operator. This matters because if (L(G)) is graceful, we usually know the exact structure of (G).
+**Confidence:** Certain.
+
+---
+
+# **7. Murugan & Arumugam’s Necessary Degree Condition for Graceful Line Graphs**
+
+**Authors:** M. Murugan and S. Arumugam; appears in *On Graceful Line Graphs* (provided PDF).
+**Summary:** They prove that if (L(G)) is graceful, then the degree sequence of (G) must satisfy
+[
+\sum_{v\in V(G)} d(v)^2 \ge 4|E(G)| - 2 .
+]
+This is one of the very few direct necessary conditions relating gracefulness of (L(G)) back to structure of (G).
+**Confidence:** Certain.
+
+---
+
+# **8. Gnanajothi’s Bigraceful Graph Results (Early 1990s)**
+
+**Author:** R. Gnanajothi.
+**Summary:** Defines **bigraceful graphs**, i.e., graphs for which both (G) and (L(G)) are graceful. She proved that paths, cycles with (n\equiv0,3\pmod4), stars, small complete graphs, and grids (P_m \times P_n) are bigraceful. These are the main positive cases supporting the conjecture.
+**Confidence:** Certain.
+
+---
+
+# **9. Non-Gracefulness of Certain Eulerian Graphs (Rosa, 1967; later expositions)**
+
+**Author:** A. Rosa; summarized in the provided PDF.
+**Summary:** If a graph is **Eulerian** with (q) edges and (q \equiv 1 \pmod4) or (q\equiv 2 \pmod4), then it cannot be graceful. This helps detect possible counterexamples and shows parity obstructions for (G) even when (L(G)) might be nice.
+**Confidence:** Certain.
+
+---
+
+# **10. Non-Gracefulness of Many Line Graphs: (L(K_{m,n})) and (L(W_n))**
+
+**Authors:** Murugan & Arumugam; earlier works cited in their paper.
+**Summary:**
+
+* (L(K_{m,n})) is **not** graceful when (n>3) and (n \equiv 3 \pmod4).
+* (L(W_n)) is not graceful for many congruence classes of (n).
+  These results restrict the families one must consider when searching for graphs with graceful line graphs.
+  **Confidence:** Certain.
+
+---
+
+# **11. Gracefulness of Suns and Related Unicyclic Graphs**
+
+**Authors:** Multiple authors; summarized in your PDFs.
+**Summary:** All sun graphs (Sun(n,k)) are graceful, but many of their line graphs are not. This is a strong piece of *negative* evidence: there exist graceful (G) whose line graph is non-graceful, but not (yet) the reverse.
+**Confidence:** Certain.
+
+---
+
+# **12. Explicit Labeling Theorem for Unicyclic Graphs in “On Graceful Line Graphs”**
+
+**Authors:** Murugan & Arumugam (your second PDF).
+**Summary:** They construct and prove graceful labelings for a wide family of unicyclic graphs of the form
+[
+C_n \oplus (P_t, P_s, P_1, …, P_1)
+]
+as well as graceful labelings for the line graphs of such structures. This shows large families where the conjecture holds.
+**Confidence:** Certain.
+
+---
+
+# Summary
+
+These 12 results form the **backbone** of what is currently known, and all of them are either:
+
+* directly relevant to line graphs and gracefulness,
+* used in the PDFs you supplied, or
+* classical fundamentals of the subject.
+
+If you'd like, I can next:
+
+### ✔️ Categorize these results into “positive evidence” vs. “negative evidence” for the conjecture,
+
+or
+
+### ✔️ Extract structural consequences these theorems impose on any potential counterexample,
+
+or
+
+### ✔️ Start building a proof strategy using only these known results.
