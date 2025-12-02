@@ -1,6 +1,6 @@
 I want your help in developing proof (either prove or disprove) for the below unsolved problem:
 
-Problem: If G is nongraceful then L(G ) is graceful?
+Problem: If G is nongraceful then L(G) is graceful?
 
 I am proving two papers that have information on the definitions of line graph, graceful labeling, etc. These papers also provide you with necessary background that can be useful to develop the proof for the problem.
 
