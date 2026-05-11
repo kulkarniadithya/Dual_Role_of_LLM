@@ -1,0 +1,3 @@
+1. Correctness of definitions
+2. Faithfulness of problem restatement
+3. Ability to identify structural components

@@ -1,0 +1,2 @@
+1. Coherence of strategies
+2. Usefulness of decomposition
