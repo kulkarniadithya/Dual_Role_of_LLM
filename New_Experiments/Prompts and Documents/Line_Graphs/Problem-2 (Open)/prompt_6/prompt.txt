@@ -1,0 +1,1 @@
+Now attempt to prove the main conjecture or implication. Write the proof in a rigorous, step-by-step manner, as if submitting to a mathematics journal. State each lemma clearly, justify each inference, and avoid vague reasoning.

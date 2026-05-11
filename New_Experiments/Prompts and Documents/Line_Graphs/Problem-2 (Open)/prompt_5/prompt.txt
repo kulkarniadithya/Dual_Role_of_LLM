@@ -1,0 +1,5 @@
+Propose 3–5 distinct high-level strategies to try to resolve the problem. They do not need to be correct. For each strategy:
+
+1. Explain the core idea.
+2. List any structural lemmas that might be needed.
+3. Predict the hardest obstacle in making the strategy succeed.
